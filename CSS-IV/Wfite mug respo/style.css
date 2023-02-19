@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-color: rgb(247, 240, 233);
+}
+#wrapper{   
+    display: flex;   
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;  
+}
+
+#main{
+    display: flex;
+    border: 1px solid white;
+    width: 87vh;
+    height: 52vh;
+    background-color: white;  
+    gap: 2rem;
+    
+}
+#main{
+    border-radius: 5%;
+}
+#cup{
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 6%;
+}
+#cup{
+    background-size: cover;
+}
+#content{
+    display: flex;
+    left: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    width: 87vh;
+    height: 52vh;
+    gap: 0.7em;
+}
+#product{
+    
+   align-self:5rem;;
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+    color: gray;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+#product_title{
+   
+    font-size: 6vh;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1;
+    margin: 0.1em 0 0.3em 0;
+
+}
+#desc{
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: bolder;  
+    font-weight: 500;
+    color: grey;
+}
+
+#actual{
+
+    font-size: 2rem;
+
+    color:hsl(158, 36%, 37%);    
+    font-weight: bolder;
+    font-family: cursive;
+    line-height: 1;
+ 
+}
+#initial{
+ 
+    text-decoration: line-through;
+    
+    font-size: 2.6vh;
+    font-family: monospace;
+    color: gray; 
+}
+#price{
+   display: flex;
+   gap: 1rem;
+   align-items: baseline;
+   
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    top: 4.5rem;
+    width: 19rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    gap: 1em;
+}
+
+#cart{
+    /* position: absolute; */
+    top: 1.2rem;
+    left: 5rem;
+    width: 8%;
+height: 31%;
+}
+
+#cart_oprn{
+    color: white;
+    top: 0.9rem;
+    font-family: monospace;
+    left: 7.4rem;
+    font-size: 1.5rem;
+}

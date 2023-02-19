@@ -1,0 +1,24 @@
+.container{
+    height: 60vh;
+    background-color: yellow;
+    display: grid;
+
+    grid-template-rows: repeat(3,1fr );
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10%;
+}
+
+.box{
+    background-color: aqua;
+    min-width: 50px;
+    min-height: 60px;
+}
+
+#box1{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+
+    grid-area: 1;
+}

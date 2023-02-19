@@ -1,0 +1,178 @@
+:root{
+    --white:rgb(222, 32, 184);
+}
+
+.container{
+    background-color: greenyellow;
+    width: 400px;
+    height: 383px;
+}
+
+.box{
+    background-color: aqua;
+    width: 100%;
+    height: 60px;
+    margin-top: 2em;
+    
+   
+    color:var(--white);
+
+
+
+
+}
+
+#box1{
+    background-color: aqua;
+    width: 50px;
+    height: 60px;
+    margin-top: 2em;
+    
+   
+    color:var(--white);
+
+
+
+    
+    animation-name: saurabh;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+}
+
+#box2{
+    background-color: aqua;
+    width: 50px;
+    height: 60px;
+    margin-top: 2em;
+    
+   
+    color:var(--white);
+
+
+
+    
+    animation-name: saurabh2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+}
+#box3{
+    background-color: aqua;
+    width: 50px;
+    height: 60px;
+    margin-top: 2em;
+    
+   
+    color:var(--white);
+
+
+
+    
+    animation-name: saurabh;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+}
+
+#box4{
+    background-color: aqua;
+    width: 50px;
+    height: 60px;
+    margin-top: 2em;
+    
+   
+    color:var(--white);
+
+
+
+    
+    animation-name: saurabh;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+}
+
+@keyframes saurabh {
+
+    0%{
+        left:0%;
+        background-color: orange;
+        border:2px solid rgb(228, 96, 7);
+    }
+    50%{
+        margin-left: 50%;
+        background-color:white;
+        border:2px solid rgb(36, 93, 173);
+    }
+    100%{
+        margin-left: 100%;
+        background-color: rgba(60, 153, 14, 0.336);
+        border:2px solid rgb(40, 59, 8);
+    }
+}
+
+@keyframes saurabh2 {
+
+    0%{
+        left:10%;
+        background-color: orange;
+        border:2px solid rgb(228, 96, 7);
+    }
+    50%{
+        margin-left: 20%;
+        background-color:white;
+        border:2px solid rgb(36, 93, 173);
+    }
+    100%{
+        margin-left: 70%;
+        background-color: rgba(60, 153, 14, 0.336);
+        border:2px solid rgb(40, 59, 8);
+    }
+}
+
+@keyframes saurabh3 {
+
+    0%{
+        left:40%;
+        background-color: orange;
+        border:2px solid rgb(228, 96, 7);
+    }
+    50%{
+        margin-left: 80%;
+        background-color:white;
+        border:2px solid rgb(36, 93, 173);
+    }
+    100%{
+        margin-left: 90%;
+        background-color: rgba(60, 153, 14, 0.336);
+        border:2px solid rgb(40, 59, 8);
+    }
+}
+
+@keyframes saurabh4 {
+
+    0%{
+        left:0%;
+        background-color: orange;
+        border:2px solid rgb(228, 96, 7);
+    }
+    50%{
+        margin-left: 60%;
+        background-color:white;
+        border:2px solid rgb(36, 93, 173);
+    }
+    100%{
+        margin-left: 100%;
+        background-color: rgba(60, 153, 14, 0.336);
+        border:2px solid rgb(40, 59, 8);
+    }
+}

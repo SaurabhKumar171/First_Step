@@ -1,0 +1,39 @@
+#HW{
+    border: 1px solid rgb(17, 175, 133);
+    border-radius: 25%;
+    background-image:repeating-conic-gradient(rgb(119, 239, 209) 10% ,rgb(210, 238, 99) 20%) ;
+    width: 30rem;
+    height: 20rem;
+    position: relative;
+    top: 10rem;
+    left: 28rem;
+}
+.Center{
+    position: absolute;
+    top: 140px;
+    left: 205px;
+    color: blueviolet;
+}
+
+ .bottomleft{
+    position: absolute;
+  top: 19em;
+  color: blueviolet;
+}
+.topright{
+    position: absolute;
+    left: 26.7em;
+    top: 0em;
+    color: blueviolet;
+}
+.topleft{
+    
+    color: blueviolet;
+}
+.bottomright{
+    position: absolute;
+    top: 19rem;
+    color: blueviolet;
+left: 26.7rem;
+    
+}

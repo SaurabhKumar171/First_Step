@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: 200px 300px 250px;
+   
+}
+
+.box{
+    
+    max-width: 199px;
+    max-height: 168px;
+
+    background-color: aqua;
+    border: 1px solid black;
+}

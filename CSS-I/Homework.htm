@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHelp Card</title>
+</head>
+<style>
+    .container {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    #main {
+        box-shadow: 1px;
+        width: 67%;
+        height: 61%;
+        border: 1px solid white;
+        margin-left: 60%;
+        border-radius: 0.5rem;
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    }
+
+    #img {
+        margin: 2%;
+        width: 97%;
+        height: 55%;
+        border-radius: 1px;
+        margin-bottom: 4%;
+    }
+
+    img {
+        /* margin: 7%; */
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+    }
+
+    .content {
+        font-size: 2.0rem;
+        line-height: 2rem;
+        font-weight: 700;
+        font-family: Rubik, sans-serif;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+    #price {
+        margin-left: 4%;
+        margin-top: -4%;
+        font-weight: 705;
+        color: #007aff;
+        display: flex;
+        font-size: 23px;
+        gap: 20px;
+        font-family: Rubik, sans-serif;
+    }
+
+
+    .p2 {
+        justify-items: center;
+        text-decoration: 2px line-through;
+        --tw-text-opacity: 1;
+        color: rgb(119 124 133/var(--tw-text-opacity));
+    }
+
+    .p3 {
+
+        color: aliceblue;
+        background-color: rgb(91, 228, 91);
+        border-radius: 0.5rem;
+    }
+
+    .line {
+        width: 76%;
+        margin-left: 26px;
+        margin-top: 30px;
+
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div id="main">
+            <div id="img">
+                <img src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg">
+            </div>
+
+            <div class="content">
+                Web Development Master
+            </div>
+            <div class="content">
+                Course @dot Batch
+            </div>
+
+            <div class="line">
+                <hr>
+            </div>
+            <span id="price">
+                <p class="p1">₹4500</p>
+                <p class="p2">₹6999</p>
+                <p class="p3">42% off</p>
+            </span>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

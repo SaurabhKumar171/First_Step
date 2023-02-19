@@ -1,0 +1,37 @@
+.linear {
+  border: 1px solid black;
+  width: 30vh;
+  height: 30vh;
+  background-image: linear-gradient(rgb(202, 227, 239), rgb(238, 175, 217));
+  background-image: linear-gradient(orange, white, rgb(152, 234, 218));
+  margin: 2rem;
+}
+
+#radial {
+  margin: 2rem;
+  border: 1px solid black;
+  width: 30vh;
+  height: 30vh;
+  background-image: radial-gradient(
+    circle at top,
+    rgb(192, 124, 15),
+    rgb(238, 175, 217),
+    rgb(31, 231, 111)
+  );
+
+  background-image: radial-gradient(
+    circle at top,
+    red 5%,
+    rgb(238, 175, 217) 20%,
+    rgb(152, 234, 218) 60%
+  );
+}
+
+#conic {
+  margin: 2rem;
+  border: 1px solid black;
+  width: 30vh;
+  height: 30vh;
+  background-image: repeating-conic-gradient(from 90deg, red 10%, blue 20%);
+  border-radius: 50%;
+}

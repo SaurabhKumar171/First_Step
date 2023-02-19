@@ -1,0 +1,11 @@
+.max_height {
+  max-height: 100px;
+  border: 1px solid white;
+
+  width: 200px;
+  overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

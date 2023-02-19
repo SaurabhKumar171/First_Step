@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(247, 240, 233);
+}
+#wrapper{
+    position: relative;
+
+}
+
+#main{
+    display: flex;
+    border: 1px solid white;
+    position: absolute;
+    width: 89vh;
+    height: 58vh;
+    top: 5rem;
+    left: 23rem;   
+    background-color: white;
+    object-fit: cover;
+}
+#main{
+    border-radius: 5%;
+}
+#cup{
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 6%;
+}
+#cup{
+    /* border-radius: 6%; */
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 47%;
+}
+#content{
+    position: absolute;
+    left: 50%;
+}
+#product{
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+    color: gray;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#product_title{
+    font-size: 6vh;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1;
+    margin: 0.1em 0 0.3em 0;
+
+}
+#desc{
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    
+    font-weight: 500;
+    color: grey;
+}
+
+/* #desc{
+    font-family: "Montserrat", sans-serif;
+    width: 96%;
+    font-size: var(--text);
+    color: var(--gray);
+    font-weight: 500;
+    margin-bottom: 1.5em;
+
+} */
+#actual{
+    position: absolute;
+    font-size: 2rem;
+    margin-right: 0.3em;
+    color:hsl(158, 36%, 37%);    
+    font-weight: bolder;
+    font-family: cursive;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+}
+#initial{
+    position: absolute;
+    left: 5.9rem;
+    text-decoration: line-through;
+    top: 1.483em;
+    font-size: 2.6vh;
+    font-family: monospace;
+    color: gray; 
+}
+#price{
+    position: relative;
+    bottom: 1rem;
+}
+
+/* #btn{
+    display: flex;
+    background-color: green;
+    position: relative;
+    top: 3.5rem;
+    width: 16rem;
+    height: 3rem;
+    border-radius: 5rem;
+} */
+#btn{
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    position: relative;
+    top: 4.5rem;
+    width: 19rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+#cart{
+    position: absolute;
+    top: 1.2rem;
+    left: 5rem;
+    width: 7%;
+    height: 25%;
+}
+
+#cart_oprn{
+    color: white;
+    position: absolute;
+    position: absolute;
+    top: 0.9rem;
+    font-family: monospace;
+    left: 7.4rem;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,47 @@
+#static {
+  position: static;
+}
+
+#r1 {
+  border: 1px solid black;
+  width: 10rem;
+  height: 10rem;
+  background-color: aqua;
+  position: relative;
+  top: 16rem;
+  left:5rem;
+
+ 
+}
+body{
+    width: 900px;
+    height: 900px;
+    background-color: yellow;
+}
+#r2 {
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+    position: relative;
+    top: 16rem;
+    left:5rem;
+  }
+
+  #f1 {
+    margin-top: 5rem;
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+    position: relative;
+    top: 10rem;
+    left:5rem;
+  }
+
+  #fixed{
+   
+    margin-left: 10em;
+    position: fixed;
+    /* left: 15em; */
+  }

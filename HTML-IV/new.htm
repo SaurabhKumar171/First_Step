@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Chrome, Firefox OS and Opera -->
+        <title>Drawit</title>
+        <meta name="theme-color" content="#DD5511">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#DD5511">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#DD5511">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#4285f4">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="My App"> <!-- New in iOS6 -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+        <meta name='apple-touch-fullscreen' content='yes'>        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --> 
+        <link rel="icon" type="image/png" href="res/favicon.png">      
+        <link href="https://littledata.in/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://littledata.in/css/font-awesome.min.css">
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="https://littledata.in/js/bootstrap.min.js"></script>
+        <script src="js/otpsend.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        
+        <link rel="stylesheet" href="res/style.css">
+        <style type="text/css">
+            .navbar-default {
+                background-color: #1b6eb7;
+                border: none;
+            }
+            .message_color_white{
+                padding-top: 20px;
+                color: #fff;
+                display: block;
+            }
+            .submit_otp{
+                background-color: #f0e83b !important; margin-top:5px;color:#000;border-radius: 25px;
+            }
+        </style>
+    </head>
+<!-- login validation -->
+<script  src="js/otpsend.js"></script>  
+<body>
+    <div class="loader"></div>
+    <nav class="navbar navbar-default" style="background-color:transparent">        
+        <span class="centerspan">
+            <center><a href="javascript:void(0);"><img class="logo" alt="Drawit" src="res/New-logo.png" style="width: 140px; height: 140px; margin-top: 25px;"></a></center>
+        </span>
+    </nav>
+    <link rel="stylesheet" href="res/signup.css">
+    <div class="container">
+        <form id="signupForm" method="post" style="margin-top: 50px;">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                <center><div style="display: none;" class="alert alert-danger" role="alert" id="showerror_msg">
+                </div></center>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div style="margin-top:0px;"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="left-inner-addon ">
+                            <span class="countryCode">&nbsp;+94</span>
+                            <input maxlength="9" value="" type="tel" id="mobnum" name="mobnum" class="form-control" onblur="this.placeholder = 'Mobile Number'" disabled onfocus="this.placeholder = ''" placeholder="Mobile Number" autocomplete="off" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:10px;"></div>
+            <div class="row">
+                <div class="col-md-12">
+                <div class="result" style="color:#000;text-align:center;">&nbsp;</div>
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-4">
+                        <button style="cursor: pointer;" type="submit" class="form-control edit_btn nextbtn"><b>Next</b></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                <center><b class="message_color_white">Welcome to Drawit. By subscribing, you will be charged LKR6 + Tax/day.</b></center>
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+             <br/>
+         <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <center><b><a class="yellowcolor" target="_blank" href="terms-condition.php">T&amp;C</a></b></center>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+        </form>
+    </div>   
+
+    <div id="overlay"></div>
+    <div id="popup" style="height: 300px !important;">
+      <span id="close_popup">&#x2717;</span>
+        <div class="password">OTP</div>
+        <form id="passwordForm" method="post">        
+            <div style="margin-top:20px;"></div>
+            <input maxlength="6" value="" type="text" name="password" class="form-control" onblur="this.placeholder = 'Enter OTP'" onfocus="this.placeholder = ''" placeholder="Enter OTP" autocomplete="off" id="password" />
+            <div style="margin-top:10px;"></div>
+            <div class="result2 alert alert-danger" style="display:none;text-align:center;font-size:12px;padding-bottom: 10px;">&nbsp;</div>
+            <button type="submit" class="form-control submit_otp"><b>Subscribe</b></button>
+            <div style="padding-top:5px;">
+            <center><b class="otpmessage"></b></center>
+            </div>
+        </form>
+    </div>
+</body>
+</html>    

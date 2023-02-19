@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.Container{
+    border: 1px solid rgb(255, 47, 179);
+    height: 24rem;
+    display: flex;
+    /* flex-direction:column;
+    flex-wrap:wrap-reverse; */
+    /* flex-flow: column nowrap;
+     */
+     flex-wrap: wrap;
+     justify-content: space-around;
+     justify-content: center;
+     /* width: 100px; */
+
+     align-items: flex-start;
+     align-items: baseline;
+     align-items: center;
+     /* gap: 1rem; */
+/* 
+     align-content: flex-end; */
+}
+.box{
+    border: 1px solid rgb(47, 255, 95);
+    background-color: bisque;
+    flex-basis: 100px;
+    /* width: 100px; */
+    flex-basis: 50%;
+    
+}
+
+#b2{
+    order: 3;
+    /* align-self: stretch; */
+}
+#b1{
+    order: 2;
+    /* align-self:baseline; */
+}
+#b4{
+    order:4;
+}
+#b3{
+    order:8;
+}
